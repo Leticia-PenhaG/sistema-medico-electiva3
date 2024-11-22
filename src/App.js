@@ -8,6 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<h1>Bienvenido al Sistema Médico</h1>} />
         <Route path="/pacientes" element={<Pacientes />} />
         <Route path="/medicos" element={<Medicos />} />
         <Route path="/fichas-clinicas" element={<FichasClinicas />} />
